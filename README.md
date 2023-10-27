@@ -13,9 +13,9 @@ npm install gzip-string
 ```js
 import { compress, decompress } from 'gzip-string'
 
-const compressedData = compress([YOUR STRING])
+const compressedData = await compress([YOUR STRING])
 
-const yourString = decompress(compressedData)
+const yourString = await decompress(compressedData)
 ```
 
 #### Functions:
