@@ -1,6 +1,6 @@
 {
   "name": "gzip-string",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module for compressing strings using the browsers built in gzip zipping functionality.",
   "main": "index.js",
   "scripts": {
