@@ -16,7 +16,7 @@ const decompress = async function(data, encoding = 'gzip') {
   writer.close()
   const arrayBuffer = await new Response(cs.readable).arrayBuffer()
   return new TextDecoder().decode(arrayBuffer)
-},
+}
 
 module.exports = {
   compress,
