@@ -25,8 +25,8 @@ module.exports = {
     const data = await compress(string, encoding)
     return encodeURIComponent(data)
   },
-  decompressToURI: async function(string, encoding = 'gzip') {
+  decompressFromURI: async function(string, encoding = 'gzip') {
     const data = decodeURIComponent(string)
-    return await decompress(data)
+    return await decompress(data, encoding)
   }
 }
