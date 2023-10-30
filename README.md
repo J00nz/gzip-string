@@ -29,13 +29,13 @@ const yourString = await decompress(compressedData)
 Compresses the string using the browsers internal compression method.
 
 
-###### decompress(password, (times = 1))
+###### decompress(string, (encoding = 'gzip'))
 Decompresses the provided using the browsers internal decompression method.
 
 
-###### compressToURI(password, (times = 1))
+###### compressToURI(string, (encoding = 'gzip'))
 Compresses the string using the browsers internal compression method and makes sure it is safe to put in the URI.
 
 
-###### decompressFromURI(password, (times = 1))
+###### decompressFromURI(string, (encoding = 'gzip'))
 Decompresses URI encoded strings using the browsers internal compression.

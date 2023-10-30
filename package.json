@@ -1,6 +1,6 @@
 {
   "name": "gzip-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Module for compressing strings using the browsers built in gzip zipping functionality.",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,9 @@
     "compression"
   ],
   "author": "Johan (J00nz) Jönsson",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J00nz/gzip-string.git"
+  }
 }
